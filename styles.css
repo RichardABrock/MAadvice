@@ -1,0 +1,41 @@
+/*GLOBAL VARIABLES*/
+:root {
+  --brdr_col: #484848;
+  --pad: 5px;
+  --brdr_rad: 3px;
+}
+
+img.figure-img{
+  width: 60%;
+}
+
+ pre code:not(.sourceCode){
+	color: white;
+	background-color: black;
+}
+
+
+.none .fu{color: black !important;}
+.none .st{color: black !important;}
+.none .ot{color: black !important;}
+.none .dv{color: black !important;}
+.none .st{color: black !important;}
+
+table {
+   max-width: 95%;
+   border: 1px solid #000000;
+}
+ 
+th {
+  background-color: #2670AC;
+  color: #000000;
+}
+ 
+td {
+  background-color: #B8D6EE;
+}
+
+.question ul{
+	list-style-type:lower-roman;
+}
+
