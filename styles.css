@@ -1,12 +1,45 @@
 /* css styles */
+/*GLOBAL VARIABLES*/
+:root {
+  --brdr_col: #484848;
+  --pad: 5px;
+  --brdr_rad: 3px;
+}
+
+img.figure-img{
+  width: 60%;
+}
+
+ pre code:not(.sourceCode){
+	color: white;
+	background-color: black;
+}
+
+
+.none .fu{color: black !important;}
+.none .st{color: black !important;}
+.none .ot{color: black !important;}
+.none .dv{color: black !important;}
+.none .st{color: black !important;}
+
+.opt{
+	/*color: white;*/
+	background-color: #f7e1d3;
+	border: 2px solid var(--brdr_col);
+	padding: var(--pad);
+	border-radius: var(--brdr_rad);
+	width: 100%;
+	display: inline-block;
+}
+
 table {
-  border-collapse: collapse; /* Ensures that borders between cells don't double up */
-  width: 100%; /* Optional: makes the table take up the full width */
+  border-collapse: collapse !important; /* Ensure borders collapse */
+  width: 100% !important; /* Ensure full width */
 }
 
 table th,
 table td {
-  border: 1px solid black; /* Adds a black border around each cell */
-  padding: 8px; /* Optional: adds some space inside each cell */
-  text-align: left; /* Optional: aligns the text to the left */
+  border: 1px solid black !important; /* Adds a black border around each cell */
+  padding: 8px !important; /* Adds some space inside each cell */
+  text-align: left !important; /* Align text to the left */
 }
